@@ -1,4 +1,4 @@
 SRC=$(wildcard src/*.c)
 
-realsofty: $(SRC)
+realsoftie: $(SRC)
 	gcc -o $@ $^
