@@ -1,6 +1,8 @@
 # realsoftie
 Experiments with Soft Real Time
 
-[![Build Status](https://travis-ci.com/slaterade/realsoftie.svg?branch=master)](https://travis-ci.com/slaterade/realsoftie)
+## Linux
+[![Linux](https://travis-ci.com/slaterade/realsoftie.svg?branch=master)](https://travis-ci.com/slaterade/realsoftie)
 
-TODO: explain
+## Windows
+![Windows](https://ci.appveyor.com/api/projects/status/github/slaterade/realsoftie?branch=master&svg=true)
