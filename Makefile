@@ -4,6 +4,7 @@ OUTDIR=bin
 all: $(OUTDIR)/realsoftie modules
 
 $(OUTDIR)/realsoftie: $(SRC)
+	@mkdir -p $(@D)
 	gcc -o $@ $^
 
 modules:
