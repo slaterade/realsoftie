@@ -1,6 +1,8 @@
-#include "stdio.h"
+#include "modconn.h"
 
 int main(int argc, char** argv) {
-    printf("realsofty placeholder\n");
+    modconn_state mcs;
+    modconn_init(&mcs);
+    modconn_main_linux(&mcs);
     return 0;
 }
