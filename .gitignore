@@ -59,3 +59,9 @@ dkms.conf
 # Build Output
 bin/
 
+# Visual Studio
+*.suo
+*.user
+*.VC.db
+*.log
+ipch/
