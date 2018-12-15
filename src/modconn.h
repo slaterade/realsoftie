@@ -38,6 +38,6 @@ int modconn_init(modconn_state* mcs);
 int modconn_pulse(modconn_state* mcs, uint64_t elapsed);
 
 /* this function will block */
-int modconn_main_linux(modconn_state* mcs);
+int modconn_main(modconn_state* mcs);
 
 #endif
